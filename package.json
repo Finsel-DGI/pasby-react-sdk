@@ -1,7 +1,7 @@
 {
-  "name": "npm-template",
+  "name": "@finsel-dgi/pasby-react-sdk",
   "version": "1.0.0",
-  "description": "This package/library servers as a share point for the mono repo structure javascript projects infrastructure is built upon.",
+  "description": "Help with OIDC process",
   "main": "build/index.js",
   "files": ["/build"],
   "types": "build/index.d.ts",
@@ -15,12 +15,12 @@
   "author": "Jackmay Confidence Idala",
   "repository": {
     "type": "git",
-    "url": "[your git repository location eg (git+https://github.com/Account-Profile/repo.git)]"
+    "url": "git+https://github.com/Finsel-DGI/pasby-react-sdk.git"
   },
   "bugs": {
-    "url": "[your git issues location eg (https://github.com/Account-Profile/repo/issues)]"
+    "url": "https://github.com/Finsel-DGI/pasby-react-sdk/issues"
   },
-  "homepage": "[provide repo homepage]",
+  "homepage": "https://docs.pasby.africa",
   "keywords": [],
   "license": "ISC",
   "dependencies": {
