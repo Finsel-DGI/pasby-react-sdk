@@ -13,7 +13,7 @@ export class PasbyNationalObject {
   @Expose() contact: Contact | undefined;
   @Expose() financial: Financial | undefined;
   @Expose() naming: Naming | undefined;
-  @Expose() Nationality: Nationality | undefined;
+  @Expose() nationality: Nationality | undefined;
 
   /**
    * Change record to this class

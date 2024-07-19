@@ -72,6 +72,6 @@ __decorate([
 ], PasbyNationalObject.prototype, "naming", void 0);
 __decorate([
     (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "Nationality", void 0);
+], PasbyNationalObject.prototype, "nationality", void 0);
 exports.PasbyNationalObject = PasbyNationalObject;
 //# sourceMappingURL=pasby:national.js.map

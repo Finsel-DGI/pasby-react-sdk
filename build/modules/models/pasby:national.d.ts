@@ -10,7 +10,7 @@ export declare class PasbyNationalObject {
     contact: Contact | undefined;
     financial: Financial | undefined;
     naming: Naming | undefined;
-    Nationality: Nationality | undefined;
+    nationality: Nationality | undefined;
     /**
      * Change record to this class
      *
