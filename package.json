@@ -1,6 +1,6 @@
 {
   "name": "@finsel-dgi/pasby-react-sdk",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Help with OIDC process",
   "main": "build/index.js",
   "files": ["/build"],
@@ -12,7 +12,7 @@
     "build": "tsc",
     "publish": "npm run build && npm publish"
   },
-  "author": "Jackmay Confidence Idala",
+  "author": "Jackmay Confidence",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Finsel-DGI/pasby-react-sdk.git"

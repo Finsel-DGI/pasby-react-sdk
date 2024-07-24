@@ -5,12 +5,14 @@
  */
 export declare class PasbyNationalObject {
     user: string;
-    address: Address | undefined;
-    bio: Bio | undefined;
-    contact: Contact | undefined;
-    financial: Financial | undefined;
-    naming: Naming | undefined;
-    nationality: Nationality | undefined;
+    claims: {
+        contact?: Contact;
+        address?: Address;
+        bio?: Bio;
+        financial?: Financial;
+        naming?: Naming;
+        nationality: Nationality;
+    } | undefined;
     /**
      * Change record to this class
      *

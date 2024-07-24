@@ -57,21 +57,6 @@ __decorate([
 ], PasbyNationalObject.prototype, "user", void 0);
 __decorate([
     (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "address", void 0);
-__decorate([
-    (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "bio", void 0);
-__decorate([
-    (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "contact", void 0);
-__decorate([
-    (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "financial", void 0);
-__decorate([
-    (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "naming", void 0);
-__decorate([
-    (0, class_transformer_1.Expose)()
-], PasbyNationalObject.prototype, "nationality", void 0);
+], PasbyNationalObject.prototype, "claims", void 0);
 exports.PasbyNationalObject = PasbyNationalObject;
 //# sourceMappingURL=pasby:national.js.map

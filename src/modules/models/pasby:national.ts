@@ -8,12 +8,14 @@ import { plainToInstance, Expose } from "class-transformer";
 export class PasbyNationalObject {
   /* eslint new-cap: ["error", { "capIsNew": false }]*/
   @Expose() user = ""; // uses the format org_{id}
-  @Expose() address: Address | undefined;
-  @Expose() bio: Bio | undefined;
-  @Expose() contact: Contact | undefined;
-  @Expose() financial: Financial | undefined;
-  @Expose() naming: Naming | undefined;
-  @Expose() nationality: Nationality | undefined;
+  @Expose() claims: {
+    contact?: Contact;
+    address?: Address;
+    bio?: Bio;
+    financial?: Financial;
+    naming?: Naming;
+    nationality: Nationality;
+  } | undefined;
 
   /**
    * Change record to this class
